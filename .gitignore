@@ -23,5 +23,7 @@ logs
 
 # gradle related ignore in sub directories
 .gradle
+*/.gradle
+
 build
 out
