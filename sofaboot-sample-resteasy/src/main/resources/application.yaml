@@ -1,0 +1,33 @@
+# Application Name
+spring:
+  application:
+    name: SOFABoot Rest Demo
+
+# resteasy
+resteasy:
+  jaxrs:
+    app:
+      registration: property
+      classes: com.alipay.sofa.boot.examples.demo.configuration.JaxrsApplication
+
+# management
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - health
+          - shutdown
+  endpoint:
+    health:
+      show-details:always
+    shutdown:
+      enabled: true
+
+# logger
+logging:
+  level:
+    org.springframework: info
+    org.jboss.resteasy.springboot: info
+  path: ./logs
+

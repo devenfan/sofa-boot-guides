@@ -23,7 +23,13 @@ logs
 
 # gradle related ignore in sub directories
 .gradle
-*/.gradle
+/*/.gradle
+/*/gradle
+/*/gradlew*
 
 build
 out
+
+depends.txt
+/*/depends.txt
+/*/*/depends.txt
