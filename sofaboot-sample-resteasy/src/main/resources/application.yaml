@@ -8,7 +8,7 @@ resteasy:
   jaxrs:
     app:
       registration: property
-      classes: com.alipay.sofa.boot.examples.demo.configuration.JaxrsApplication
+      classes: com.alipay.sofa.boot.examples.resteasy.configuration.JaxrsApplication
 
 # management
 management:

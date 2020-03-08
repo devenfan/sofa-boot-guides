@@ -1,4 +1,4 @@
-package com.alipay.sofa.boot.examples.demo.bean;
+package com.alipay.sofa.boot.examples.resteasy.bean;
 
 import org.springframework.stereotype.Component;
 

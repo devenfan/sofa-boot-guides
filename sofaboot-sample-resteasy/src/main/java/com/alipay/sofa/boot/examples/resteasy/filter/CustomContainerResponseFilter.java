@@ -1,4 +1,4 @@
-package com.alipay.sofa.boot.examples.demo.filter;
+package com.alipay.sofa.boot.examples.resteasy.filter;
 
 import java.io.IOException;
 
@@ -7,7 +7,7 @@ import javax.ws.rs.container.ContainerResponseContext;
 import javax.ws.rs.container.ContainerResponseFilter;
 import javax.ws.rs.ext.Provider;
 
-import com.alipay.sofa.boot.examples.demo.bean.CustomSingletonBean;
+import com.alipay.sofa.boot.examples.resteasy.bean.CustomSingletonBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

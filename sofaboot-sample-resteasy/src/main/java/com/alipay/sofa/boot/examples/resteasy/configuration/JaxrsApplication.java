@@ -1,4 +1,4 @@
-package com.alipay.sofa.boot.examples.demo.configuration;
+package com.alipay.sofa.boot.examples.resteasy.configuration;
 
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;

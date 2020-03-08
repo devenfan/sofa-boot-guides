@@ -1,4 +1,4 @@
-package com.alipay.sofa.boot.examples.demo.echo;
+package com.alipay.sofa.boot.examples.resteasy.echo;
 
 /**
  * A simple echo message, containing the text to be echoed

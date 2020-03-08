@@ -1,4 +1,4 @@
-package com.alipay.sofa.boot.examples.demo.echo;
+package com.alipay.sofa.boot.examples.resteasy.echo;
 
 import javax.validation.constraints.NotEmpty;
 import javax.ws.rs.Consumes;
