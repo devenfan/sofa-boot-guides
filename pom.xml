@@ -16,12 +16,17 @@
     <packaging>pom</packaging>
 
     <properties>
-        <java.version>1.8</java.version>
         <maven.surefire.plugin>2.21.0</maven.surefire.plugin>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <java.version>1.8</java.version>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.complerVersion>1.8</maven.compiler.complerVersion>
     </properties>
 
     <modules>
         <module>sofaboot-sample</module>
+        <module>sofaboot-sample-lucene</module>
         <module>sofaboot-sample-resteasy</module>
         <module>sofaboot-sample-standard</module>
         <module>sofaboot-sample-with-isle</module>
@@ -45,6 +50,11 @@
                     <artifactId>junit-vintage-engine</artifactId>
                 </exclusion>
             </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
         </dependency>
     </dependencies>
 
@@ -104,7 +114,7 @@
                         </dependencies>
                         <configuration>
                             <reuseForks>false</reuseForks>
-                            <argLine> -Djdk.attach.allowAttachSelf --add-opens java.base/jdk.internal.loader=ALL-UNNAMED </argLine>
+                            <argLine>-Djdk.attach.allowAttachSelf --add-opens java.base/jdk.internal.loader=ALL-UNNAMED</argLine>
                         </configuration>
                     </plugin>
                 </plugins>
