@@ -1,0 +1,25 @@
+
+spring:
+  application:
+    name: SOFABoot MyBatis Demo
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3308/lucene_exercise?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.jdbc.Driver
+
+mybatis:
+  mapper-locations: classpath:com/alipay/sofa/boot/examples/mybatis/daomapper/*DAO.xml
+  type-aliases-package: com.alipay.sofa.boot.examples.mybatis.domain
+
+management:
+  endpoint:
+    health:
+      show-details: always
+
+logging:
+  path: ./logs
+  level:
+    com:
+      example:
+        mapper : debug

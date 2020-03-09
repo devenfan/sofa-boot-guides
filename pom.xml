@@ -27,6 +27,7 @@
     <modules>
         <module>sofaboot-sample</module>
         <module>sofaboot-sample-lucene</module>
+        <module>sofaboot-sample-mybatis</module>
         <module>sofaboot-sample-resteasy</module>
         <module>sofaboot-sample-standard</module>
         <module>sofaboot-sample-with-isle</module>
